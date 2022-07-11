@@ -37,9 +37,24 @@ body{
     height: 200px;
 }
 
-.footer{
+.content{
+    justify-content: flex-end;
+    flex-direction: row;
+}
+
+.container-footer{
+    display: flex;
     background-color: blue;
     flex-basis:200px;
+    justify-content: space-around;
 }
+
+.flex-column{
+    background-color: blue;
+    height: 200px;
+    margin: 50px;
+
+}
+
 
 /* utilies */ 
