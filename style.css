@@ -12,6 +12,34 @@ body{
 
 /* content */
 
+.container{
+    display: flex;
+    flex-direction: column;
+}
 
+.header{
+    background-color: deepskyblue;
+    flex-basis: 200px;
+}
+
+.container-main{
+    background-color: white;
+    flex-basis: 200px;
+}
+
+.flex-section-grey{
+    background-color: lightgrey;
+    height: 200px
+}
+
+.flex-section-white{
+    background-color: white;
+    height: 200px;
+}
+
+.footer{
+    background-color: blue;
+    flex-basis:200px;
+}
 
 /* utilies */ 
