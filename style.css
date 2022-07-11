@@ -17,10 +17,18 @@ body{
     flex-direction: column;
 }
 
-.header{
+/* header */
+.container-header{
     background-color: deepskyblue;
     flex-basis: 200px;
 }
+
+.menu{
+    background-color: yellow;
+    flex-direction: row;
+}
+
+/* main */
 
 .container-main{
     background-color: white;
@@ -29,7 +37,7 @@ body{
 
 .flex-section-grey{
     background-color: lightgrey;
-    height: 200px
+    height: 200px;
 }
 
 .flex-section-white{
@@ -37,10 +45,9 @@ body{
     height: 200px;
 }
 
-.content{
-    justify-content: flex-end;
-    flex-direction: row;
-}
+
+
+/* footer */
 
 .container-footer{
     display: flex;
@@ -53,7 +60,6 @@ body{
     background-color: blue;
     height: 200px;
     margin: 50px;
-
 }
 
 
